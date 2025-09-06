@@ -1,0 +1,18 @@
+:root{
+    --primario: #2563eb;
+    --azuIlustracao: #4f8deb;
+    --coral: #f3706a;
+    --fundoSuave: #e6f3ff;
+    --icons: #BEE0FF;
+    --textPrincipal: #111827;
+    --textSecond: #4B5563;
+    --fundoPagina: #F9FAFB;
+    --fundoCard: #FFFFFF;
+    --borda: #E5E7EB;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

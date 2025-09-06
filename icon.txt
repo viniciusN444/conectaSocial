@@ -1,0 +1,27 @@
+Icons - Passo a passo
+
+Encontre programas: <i class="fa-light fa-location-dot"></i>
+
+Acesse os sites oficiais: <i class="fa-light fa-hand-pointer"></i>
+
+Aproveite as oportunidades: <i class="fa-solid fa-bullseye"></i>
+
+--------------------------------------------------
+
+Icons - Programas
+
+Cursos Profissionalizantes Gratuitos: <i class="fa-solid fa-graduation-cap"></i>
+
+Cadastro Único e Auxílios: <i class="fa-solid fa-clipboard-list"></i>
+
+Serviços de Saúde Comunitária: <i class="fa-solid fa-hospital"></i>
+
+Oficinas de Inclusão Digital: <i class="fa-solid fa-laptop"></i>
+
+Plataformas de Emprego: <i class="fa-solid fa-briefcase"></i>
+
+Projetos Culturais Gratuitos: <i class="fa-solid fa-masks-theater"></i>
+
+---------------------------------------------------
+
+Icon de voltar: <i class="fa-light fa-arrow-left"></i>

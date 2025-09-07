@@ -17,12 +17,75 @@
     box-sizing: border-box;
 }
 
-img{
-    width: 50px;
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-/* i {
-  font-size: 40px;  
-  color: var(--icons); 
-} */
+.containerLogo{
+    display: flex;
+    justify-content: center;
+}
+
+header img{
+    width: 80%;
+}
+
+header ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    position: absolute;
+    top: 108px;
+    border-width: 100%;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+header ul a{
+    color: var(--textPrincipal);
+    text-decoration: none;
+}
+
+header ul a:hover{
+    text-decoration: underline;
+    color: var(--azuIlustracao);
+    transition: .1s ease;
+}
+
+.containerSlogan img{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.containerSlogan{
+    text-align: center;
+}
+.containerSlogan p{
+    text-align: justify;
+    padding: 10px;
+    line-height: 23px;
+}
+
+.btn{
+    background-color: var(--primario);
+    color: var(--fundoCard);
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: var(--azuIlustracao);
+    transition: .2s ease;
+}
+
 

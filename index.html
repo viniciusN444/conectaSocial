@@ -7,12 +7,185 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" referrerpolicy="no-referrer">
 
+    
+    <link rel="stylesheet" href="css/style.css">
     <title>Conecta Social</title>
 </head>
 
 <body>
+    <header>
+        <div class="containerLogo">
+            <img src="img/logo_conectaSocial.png" alt="Logo do Conecta Social">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Como Funciona</a></li>
+            <li><a href="#">Programas</a></li>
+            <li><a href="#">Recursos</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </header>
 
+    <section class="containerSlogan">
+        <div class="containerImg">
+            <img src="img/imagem-ilustrativa.png" alt="Imagem ilustrativa do Conecta Social">
+        </div>
+        <h1>ConectaSocial - Conectando você ás oportunidades</h1>
+        <p>
+            O site que aproxima pessoas em vulnerabilidade social de programas e cursos gratuitos.
+        </p>
+        <button class="btn">Saiba Mais</button>
+    </section>
+
+    <section class="ContainerComoFunciona">
+        <h2>Como Funciona?</h2>
+
+        <div class="cards-fun">
+            <div class="card-funciona">
+                <div class="containerIcon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <h3>Passo 1: Encontre programas</h3>
+                <p>
+                    Descubra oportunidades sociais, cursos gratuitos e auxílios disponíveis de forma rápida e fácil.
+                </p>
+            </div>
+            <div class="card-funciona">
+                <div class="containerIcon">
+                    <i class="fa-solid fa-hand-pointer"></i>
+                </div>
+                <h3>Passo 2: Acesse os sites oficiais</h3>
+                <p>
+                    Clique em “Acessar” e seja direcionado para os programas e iniciativas de cada oportunidade.
+                </p>
+            </div>
+            <div class="card-funciona">
+                <div class="containerIcon">
+                    <i class="fa-solid fa-bullseye"></i>
+                </div>
+                <h3>Passo 3: Aproveite as oportunidades</h3>
+                <p>
+                    Melhore sua qualidade de vida usando os recursos e benefícios oferecidos.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <h2>Programas e Oportunidades</h2>
+        <p>
+            Aqui você encontra iniciativas sociais, cursos gratuitos e auxílios disponíveis para melhorar sua qualidade de vida.
+        </p>
+        <div class="cards">
+            <div class="card">
+                <div class="containerIcon">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <h2>Cursos Profissionalizantes Gratuitos</h2>
+                <p>
+                    Capacite-se em tecnologia, administração e outros setores para ampliar suas oportunidades no mercado de trabalho.
+                </p>
+                <button class="btn">Acessar</button>
+            </div>
+
+            <div class="card">
+                <div class="containerIcon">
+                    <i class="fa-solid fa-clipboard-list"></i>
+                </div>
+                <h2>Cadastro Único e Auxílios</h2>
+                <p>
+                   Saiba como se inscrever no CadÚnico e acessar auxílios como Bolsa Família e Tarifa Social de Energia.
+                </p>
+                <button class="btn">Acessar</button>
+            </div>
+
+            <div class="card">
+                <div class="containerIcon">
+                    <i class="fa-solid fa-hospital"></i>
+                </div>
+                <h2>Serviços de Saúde Comunitária</h2>
+                <p>
+                    Encontre informações sobre atendimentos gratuitos em unidades de saúde e campanhas de vacinação
+                </p>
+                <button class="btn">Acessar</button>
+            </div>
+
+            <div class="card">
+                <div class="containerIcon">
+                    <i class="fa-solid fa-laptop"></i>
+                </div>
+                <h2>Oficinas de Inclusão Digital</h2>
+                <p>
+                    Aprenda a usar computadores e internet para facilitar sua vida no dia a dia e no trabalho
+                </p>
+                <button class="btn">Acessar</button>
+            </div>
+
+            <div class="card">
+                <div class="containerIcon">
+                    <i class="fa-solid fa-briefcase"></i>
+                </div>
+                <h2>Plataformas de Emprego</h2>
+                <p>
+                    Descubra vagas abertas em sites de emprego e programas de intermediação de mão de obra
+                </p>
+                <button class="btn">Acessar</button>
+            </div>
+
+            <div class="card">
+                <div class="containerIcon">
+                    <i class="fa-solid fa-masks-theater"></i>
+                </div>
+                <h2>Projetos Culturais Gratuitos</h2>
+                <p>
+                    Participe de oficinas de música, teatro, esportes e outras atividades culturais na sua região.
+                </p>
+                <button class="btn">Acessar</button>
+            </div>
+        </div>
+    </main>
+
+    <section class="containerContato">
+        <h2>Contato / Sugestões</h2>
+
+        <form>
+            <div class="campo-input">
+                <label for="txtNome">Nome</label>
+                <input type="text" id="txtNome" placeholder="Digite seu nome">
+            </div>
+
+            <div class="campo-input">
+                <label for="txtEmail">Email</label>
+                <input type="text" id="txtEmail" placeholder="Digite seu e-mail">
+            </div>
+
+            <div class="campo-input">
+                <label for="txtMens">Mensagem</label>
+                <textarea name="mensagem" id="txtMens"></textarea>
+            </div>
+
+            <button class="btn">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Como Funciona</a></li>
+            <li><a href="#">Programas</a></li>
+            <li><a href="#">Recursos</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+        <p>
+            ConectaSocial – Projeto de extensão - Cruzeiro do Sul Virtual 
+        </p>
+        <p>
+            Desenvolvido por <a href="#">Vinícius Oliveira</a>
+        </p>
+    </footer>    
 </body>
 
 </html>

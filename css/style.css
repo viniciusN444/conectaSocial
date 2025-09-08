@@ -15,6 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 header{
@@ -86,6 +87,135 @@ header ul a:hover{
     cursor: pointer;
     background-color: var(--azuIlustracao);
     transition: .2s ease;
+}
+
+
+.ContainerComoFunciona{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+.ContainerComoFunciona h2{
+    color: var(--textPrincipal);
+    text-align: center;
+    margin: 25px 0 0 0;
+}
+
+.cards-fun .card-funciona{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.containerIcon i{
+    font-size: 30px;
+    color: var(--icons);
+}
+
+.cards-fun p{
+    color: var(--textSecond);
+}
+
+main{
+    background-color: var(--fundoPagina);
+    padding: 10px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    line-height: 25px;
+}
+
+main .card{
+    background-color: var(--fundoCard);
+}
+
+.card > h2{
+    text-align: center;
+    margin: 15px 0;
+}
+
+main > h2{
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.card i{
+    margin: 15px 0;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: justify;
+
+}
+
+.containerIcon{
+    display: flex;
+    justify-content: center;
+}
+
+.card button{
+    display: block;
+    margin: 20px auto;
+}
+
+.containerContato{
+    background-color: var(--fundoCard);
+    color: var(--textPrincipal);
+    text-align: center;
+    padding: 10px;
+}
+
+form{
+    background-color: var(--fundoPagina);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+}
+
+form .campo-input{
+    display: flex;
+    flex-direction: column;
+}
+
+
+form label{
+    color: var(--textSecond);
+    text-align: left;
+}
+form input{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+footer{
+    margin-top: 25px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+}
+
+footer p{
+    text-align: center;
 }
 
 

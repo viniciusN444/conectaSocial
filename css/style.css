@@ -1,4 +1,4 @@
-:root{
+:root {
     --primario: #2563eb;
     --azuIlustracao: #4f8deb;
     --coral: #f3706a;
@@ -11,14 +11,25 @@
     --borda: #E5E7EB;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-header{
+body{
+    background-color: var(--fundoPagina);
+}
+
+.containerPage{
+    background-color: white;
+    margin: auto;
+    border-left: 1px solid #E5E7EB;
+    border-right: 1px solid #E5E7EB;
+}
+
+header {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -26,16 +37,16 @@ header{
     align-items: center;
 }
 
-.containerLogo{
+.containerLogo {
     display: flex;
     justify-content: center;
 }
 
-header img{
+header img {
     width: 80%;
 }
 
-header ul{
+header ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -49,32 +60,35 @@ header ul{
     margin: 12px 0;
 }
 
-header ul a, footer ul a{
+header ul a,
+footer ul a {
     color: var(--textPrincipal);
     text-decoration: none;
 }
 
-header ul a:hover, footer  ul a:hover{
+header ul a:hover,
+footer ul a:hover {
     text-decoration: underline;
     color: var(--azuIlustracao);
     transition: .1s ease;
 }
 
-.containerSlogan img{
+.containerSlogan img {
     width: 100%;
     margin-top: 120px;
 }
 
-.containerSlogan{
+.containerSlogan {
     text-align: center;
 }
-.containerSlogan p{
+
+.containerSlogan p {
     text-align: justify;
     padding: 10px;
     line-height: 23px;
 }
 
-.btn{
+.btn {
     background-color: var(--primario);
     color: var(--fundoCard);
     border: none;
@@ -84,26 +98,27 @@ header ul a:hover, footer  ul a:hover{
     border-radius: 8px;
 }
 
-.btn:hover{
+.btn:hover {
     cursor: pointer;
     background-color: var(--azuIlustracao);
     transition: .2s ease;
 }
 
 
-.ContainerComoFunciona{
+.ContainerComoFunciona {
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 10px;
 }
-.ContainerComoFunciona h2{
+
+.ContainerComoFunciona h2 {
     color: var(--textPrincipal);
     text-align: center;
     margin: 25px 0 0 0;
 }
 
-.cards-fun .card-funciona{
+.cards-fun .card-funciona {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,16 +127,16 @@ header ul a:hover, footer  ul a:hover{
     line-height: 25px;
 }
 
-.containerIcon i{
+.containerIcon i {
     font-size: 30px;
     color: var(--icons);
 }
 
-.cards-fun p{
+.cards-fun p {
     color: var(--textSecond);
 }
 
-main{
+main {
     background-color: var(--fundoPagina);
     padding: 10px;
     margin-top: 25px;
@@ -131,26 +146,26 @@ main{
     line-height: 25px;
 }
 
-main .card{
+main .card {
     background-color: var(--fundoCard);
 }
 
-.card > h2{
+.card>h2 {
     text-align: center;
     margin: 15px 0;
 }
 
-main > h2{
+main>h2 {
     text-align: center;
     margin-bottom: 20px;
     border-bottom: 1px solid #E5E7EB;
 }
 
-.card i{
+.card i {
     margin: 15px 0;
 }
 
-.cards{
+.cards {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -158,24 +173,24 @@ main > h2{
 
 }
 
-.containerIcon{
+.containerIcon {
     display: flex;
     justify-content: center;
 }
 
-.card button{
+.card button {
     display: block;
     margin: 20px auto;
 }
 
-.containerContato{
+.containerContato {
     background-color: var(--fundoCard);
     color: var(--textPrincipal);
     text-align: center;
     padding: 10px;
 }
 
-form{
+form {
     background-color: var(--fundoPagina);
     display: flex;
     flex-direction: column;
@@ -183,24 +198,25 @@ form{
     padding: 10px;
 }
 
-form .campo-input{
+form .campo-input {
     display: flex;
     flex-direction: column;
 }
 
 
-form label{
+form label {
     color: var(--textSecond);
     text-align: left;
 }
-form input{
+
+form input {
     padding: 10px;
     border-radius: 10px;
     outline: none;
     border: none;
 }
 
-footer{
+footer {
     margin-top: 25px;
     padding: 10px;
     display: flex;
@@ -208,25 +224,104 @@ footer{
     gap: 15px;
 }
 
-footer ul{
+footer ul {
     display: flex;
     flex-direction: column;
     align-items: center;
     list-style-type: none;
 }
 
-footer p{
+footer p {
     text-align: center;
 }
 
-footer p a{
+footer p a {
     text-decoration: none;
     color: var(--coral);
 }
 
-footer p a:hover{
+footer p a:hover {
     text-decoration: underline;
     transition: .1s ease;
 }
 
+@media(min-width: 420px) {
+    header ul {
+        margin: 30px 0;
+    }
+}
+
+@media(min-width: 480px) {
+    header ul {
+        margin: 40px 0;
+    }
+}
+
+@media(min-width: 530px) {
+    header ul {
+        margin: 75px 0;
+    }
+}
+
+@media(min-width: 600px) {
+    header ul {
+        margin: 85px 0;
+    }
+}
+
+@media(min-width: 660px) {
+    header ul {
+        margin: 100px 0;
+    }
+}
+
+@media(min-width: 710px) {
+    header ul {
+        margin: 120px 0;
+    }
+}
+
+@media(min-width: 768px) {
+    header {
+        border-width: 100%;
+        border-bottom: 1px solid #E5E7EB;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header ul {
+        border: none;
+        position: relative;
+        margin: 0 8px;
+        top: 0;
+        flex-direction: row;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .containerPage{
+        max-width: 1000px;
+        font-size: 18px;
+    }
+
+    .btn{
+        padding: 18px;
+    }
+
+    main > h2{
+        padding: 18px;
+    }
+
+    main .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(min-width: 1024px){
+    main .cards{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 

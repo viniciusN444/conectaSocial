@@ -1,0 +1,102 @@
+:root {
+    --primario: #2563eb;
+    --azuIlustracao: #4f8deb;
+    --coral: #f3706a;
+    --fundoSuave: #e6f3ff;
+    --icons: #BEE0FF;
+    --textPrincipal: #111827;
+    --textSecond: #4B5563;
+    --fundoPagina: #F9FAFB;
+    --fundoCard: #FFFFFF;
+    --borda: #E5E7EB;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: var(--fundoPagina);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #E5E7EB;
+    border-width: 100%;
+}
+
+i{
+    font-size: 50px;
+    cursor: pointer;
+}
+
+header img{
+    width: 100%;
+}
+
+.logo{
+    max-width: 200px;
+}
+
+main{
+    margin: auto;
+    max-width: 500px;
+}
+
+main h1{
+    text-align: center;
+    margin: 25px 0;
+}
+
+main h1::before{
+    content: "📚";
+}
+
+main .cursos{
+    background-color: var(--fundoPagina);
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 20px;
+}
+
+main .curso{
+    background-color: var(--fundoCard);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+}
+
+.btn {
+    background-color: var(--primario);
+    color: var(--fundoCard);
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: var(--azuIlustracao);
+    transition: .2s ease;
+}
+
+footer {
+    margin-top: 25px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}

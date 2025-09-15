@@ -96,6 +96,10 @@ footer ul a:hover {
     font-weight: bold;
     padding: 10px;
     border-radius: 8px;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    width: 50%;
 }
 
 .btn:hover {
@@ -163,6 +167,7 @@ main>h2 {
 
 .card i {
     margin: 15px 0;
+    font-size: 50px;
 }
 
 .cards {
@@ -214,6 +219,15 @@ form input {
     border-radius: 10px;
     outline: none;
     border: none;
+}
+
+textarea{
+    outline: none;
+}
+
+form button{
+    width: 50%;
+    margin: auto;
 }
 
 footer {

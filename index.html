@@ -7,10 +7,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" referrerpolicy="no-referrer">
 
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        referrerpolicy="no-referrer">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+
     <link rel="stylesheet" href="css/style.css">
     <title>Conecta Social</title>
 </head>
@@ -22,15 +25,14 @@
                 <img src="img/logo_conectaSocial.png" alt="Logo do Conecta Social">
             </div>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Como Funciona</a></li>
-                <li><a href="#">Programas</a></li>
-                <li><a href="#">Recursos</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#slogan">Home</a></li>
+                <li><a href="#cFunciona">Como Funciona</a></li>
+                <li><a href="#programas">Programas</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </header>
-        
-        <section class="containerSlogan">
+
+        <section class="containerSlogan" id="slogan">
             <div class="containerImg">
                 <img src="img/imagem-ilustrativa.png" alt="Imagem ilustrativa do Conecta Social">
             </div>
@@ -40,7 +42,7 @@
             </p>
             <button class="btn">Saiba Mais</button>
         </section>
-        <section class="ContainerComoFunciona">
+        <section class="ContainerComoFunciona" id="cFunciona">
             <h2>Como Funciona?</h2>
             <div class="cards-fun">
                 <div class="card-funciona">
@@ -72,10 +74,11 @@
                 </div>
             </div>
         </section>
-        <main>
+        <main id="programas">
             <h2>Programas e Oportunidades</h2>
             <p>
-                Aqui você encontra iniciativas sociais, cursos gratuitos e auxílios disponíveis para melhorar sua qualidade de vida.
+                Aqui você encontra iniciativas sociais, cursos gratuitos e auxílios disponíveis para melhorar sua
+                qualidade de vida.
             </p>
             <div class="cards">
                 <div class="card">
@@ -84,9 +87,10 @@
                     </div>
                     <h2>Cursos Profissionalizantes Gratuitos</h2>
                     <p>
-                        Capacite-se em tecnologia, administração e outros setores para ampliar suas oportunidades no mercado de trabalho.
+                        Capacite-se em tecnologia, administração e outros setores para ampliar suas oportunidades no
+                        mercado de trabalho.
                     </p>
-                    <a href="programas/cursos/cursos.html" class="btn" target="_blank">Acessar</a>
+                    <a href="programas/cursos/cursos.html" class="btn">Acessar</a>
                 </div>
                 <div class="card">
                     <div class="containerIcon">
@@ -94,9 +98,10 @@
                     </div>
                     <h2>Cadastro Único e Auxílios</h2>
                     <p>
-                       Saiba como se inscrever no CadÚnico e acessar auxílios como Bolsa Família e Tarifa Social de Energia.
+                        Saiba como se inscrever no CadÚnico e acessar auxílios como Bolsa Família e Tarifa Social de
+                        Energia.
                     </p>
-                    <button class="btn">Acessar</button>
+                    <a href="programas/auxilios/auxilios.html" class="btn">Acessar</a>
                 </div>
                 <div class="card">
                     <div class="containerIcon">
@@ -106,7 +111,7 @@
                     <p>
                         Encontre informações sobre atendimentos gratuitos em unidades de saúde e campanhas de vacinação
                     </p>
-                    <button class="btn">Acessar</button>
+                    <a href="programas/servicos/servicos.html" class="btn">Acessar</a>
                 </div>
                 <div class="card">
                     <div class="containerIcon">
@@ -116,7 +121,7 @@
                     <p>
                         Aprenda a usar computadores e internet para facilitar sua vida no dia a dia e no trabalho
                     </p>
-                    <button class="btn">Acessar</button>
+                    <a href="programas/oficinas/oficinas.html" class="btn">Acessar</a>
                 </div>
                 <div class="card">
                     <div class="containerIcon">
@@ -126,7 +131,7 @@
                     <p>
                         Descubra vagas abertas em sites de emprego e programas de intermediação de mão de obra
                     </p>
-                    <button class="btn">Acessar</button>
+                    <a href="programas/plataformas/plataformas.html" class="btn">Acessar</a>
                 </div>
                 <div class="card">
                     <div class="containerIcon">
@@ -136,11 +141,11 @@
                     <p>
                         Participe de oficinas de música, teatro, esportes e outras atividades culturais na sua região.
                     </p>
-                    <button class="btn">Acessar</button>
+                    <a href="programas/projetos/projetos.html" class="btn">Acessar</a>
                 </div>
             </div>
         </main>
-        <section class="containerContato">
+        <section class="containerContato" id="contato">
             <h2>Contato / Sugestões</h2>
             <form>
                 <div class="campo-input">
@@ -160,11 +165,12 @@
         </section>
         <footer>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Como Funciona</a></li>
-                <li><a href="#">Programas</a></li>
-                <li><a href="#">Recursos</a></li>
-                <li><a href="#">Contato</a></li>
+                <ul>
+                <li><a href="#slogan">Home</a></li>
+                <li><a href="#cFunciona">Como Funciona</a></li>
+                <li><a href="#programas">Programas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul> 
             </ul>
             <p>
                 ConectaSocial – Projeto de extensão - Cruzeiro do Sul Virtual
@@ -173,7 +179,7 @@
                 Desenvolvido por <a target="_blank" href="https://github.com/viniciusN444">Vinícius Oliveira</a>
             </p>
         </footer>
-    </div>    
+    </div>
 </body>
 
 </html>

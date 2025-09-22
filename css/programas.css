@@ -63,6 +63,8 @@ main .cursos{
     display: flex;
     flex-flow: column nowrap;
     gap: 20px;
+    max-width: 768px;
+    margin: auto;
 }
 
 main .curso{
@@ -73,6 +75,11 @@ main .curso{
     align-items: center;
     text-align: justify;
     padding: 10px;
+    gap: 15px;
+}
+
+main .curso h2{
+    color: var(--azuIlustracao);
 }
 
 .btn {
@@ -84,6 +91,7 @@ main .curso{
     padding: 10px;
     border-radius: 8px;
     text-decoration: none;
+    width: 50%;
 }
 
 .btn:hover {
@@ -99,4 +107,8 @@ footer {
     flex-direction: column;
     gap: 15px;
     text-align: center;
+}
+
+footer a {
+    text-decoration: none;
 }
